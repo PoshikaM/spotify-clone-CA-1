@@ -1,0 +1,250 @@
+/* for the body */
+body{
+    background-color: #121212;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* for the entire left side */
+.left{
+    position: absolute;
+    background-color: black;
+    width: 250px;
+    padding-left: 20px;
+}
+
+/* for spotify image */
+.logo{
+    padding-top: 20px;
+}
+
+/* for the 1st div home,search,library */
+.home{
+    color: white;
+    margin-top: 20px;
+}
+
+/* for the things home,search,library to it make flex */
+.beside, .be, .side{
+    width: 140px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+/* for the same above */
+.beside, .be, .side h4{
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+}
+
+/* for library */
+.side{
+    margin-left: 15px;
+}
+
+/* for the library image */
+.side img{
+    margin-top: 5px;
+}
+
+/* for the library text alone */
+.side h4{
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+/* for the entire section 2 */
+.create{
+    margin-top: 20px;
+}
+
+/* for each in second section */
+.top, .mid, .bott{
+    display: flex;
+    justify-content: space-around;
+    width: 160px;
+    color: white;
+    margin-top: 10px;
+}
+
+/* for the text in section 2 */
+.top, .mid, .bott h4{
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin-left: 10px; */
+}
+
+/* for the section 2 last image */
+.bott img{
+    margin-top: 10px;
+}
+
+/* for thee section 2 last text */
+.bott h4{
+    margin-top: 15px;
+}
+
+/* for the last list of 6 things */
+.bottom{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:500;
+}
+
+/* for the end install app */
+.end{
+    margin-top: 30px;
+    width: 140px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+/* for the text in end */
+.end p{
+    margin-top: 3px;
+}
+
+/*  */
+.up{
+    display: flex;
+    margin-left: 300px;
+    position: absolute;
+}
+
+/* for the right lft arrow in the top */
+.arrows{
+    margin-top: 20px;
+}
+
+/* .for the user to go right */
+.user{
+    margin-top: 20px;
+    margin-left: 700px;
+}
+
+/* for the good morning text */
+.good{
+    color: white;
+    margin-top: 85px;
+    margin-left: 300px;
+    position: absolute;
+}
+
+.img{
+    color: white;
+    margin-top: 170px;
+    margin-left: 300px;
+    position: absolute;
+    display: flex;
+    grid-template-columns: 4,1fr;
+    align-items: center;
+    background-color: #303030;
+    width: 220px;
+    border-radius: 3px;
+}
+
+.images{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img1{
+    width: 220px;
+    display: flex;
+    align-items: center;
+    color: white;
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 550px;
+    background-color: #303030;
+    border-radius: 3px;
+}
+
+.img2{
+    display: flex;
+    align-items: center;
+    color: white;
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 800px;
+    background-color: #303030;
+    width: 220px;
+    border-radius: 3px;
+}
+
+.img3{
+    display: flex;
+    align-items: center;
+    color: white;
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 1050px;
+    background-color: #303030;
+    width: 220px;
+    border-radius: 3px;
+}
+
+.img4{
+    display: flex;
+    align-items: center;
+    color: white;
+    position: absolute;
+    margin-top: 270px;
+    margin-left: 300px;
+    background-color: #303030;
+    width: 220px;
+    border-radius: 3px;
+}
+
+.play{
+    background-color: #121212;
+}
+
+.shows{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    color: white;
+    margin-top: 380px;
+    margin-left: 300px;
+}
+
+.pic1{
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 450px;
+    color: white;
+}
+
+.pic2{
+    position: absolute;
+    margin-left: 520px;
+    margin-top: 450px;
+    color: white;
+}
+
+.pic3{
+    position: absolute;
+    margin-left: 750px;
+    margin-top: 450px;
+    color: white;
+}
+
+.pic4{
+    position: absolute;
+    margin-left: 970px;
+    margin-top: 450px;
+    color: white;
+}
+
+.pic5{
+    position: absolute;
+    margin-left: 1200px;
+    margin-top: 450px;
+    color: white;
+}
+
+.playing{
+    position: absolute;
+    margin-top: 700px;
+}
