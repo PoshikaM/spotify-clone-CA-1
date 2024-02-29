@@ -248,3 +248,109 @@ body{
     position: absolute;
     margin-top: 700px;
 }
+
+
+@media (max-width:700px){
+    .images{
+        display: flex;
+    }
+}
+
+body {
+    background-color: #121212;
+    margin: 0;
+    padding: 0;
+}
+
+.left {
+    position: absolute;
+    background-color: black;
+    width: 250px;
+    padding-left: 20px;
+}
+
+/* ... (your existing styles) ... */
+
+/* Media Query for Responsive Design */
+@media (max-width: 700px) {
+    .left {
+        position: static;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .up {
+        margin-left: 0;
+    }
+
+    .good,
+    .img,
+    .img1,
+    .img2,
+    .img3,
+    .img4,
+    .shows,
+    .pic1,
+    .pic2,
+    .pic3,
+    .pic4,
+    .pic5,
+    .playing {
+        margin-left: 20px;
+    }
+    
+    .beside,
+    .be,
+    .side,
+    .top,
+    .mid,
+    .bott,
+    .bottom,
+    .end,
+    .up,
+    .arrows,
+    .user,
+    .good,
+    .img,
+    .img1,
+    .img2,
+    .img3,
+    .img4,
+    .shows,
+    .pic1,
+    .pic2,
+    .pic3,
+    .pic4,
+    .pic5,
+    .playing {
+        width: 100%;
+    }
+
+    .logo img {
+        height: 40px;
+    }
+
+    .home img,
+    .Create img,
+    .bottom p,
+    .end img,
+    .up img,
+    .user img,
+    .arrows,
+    .good,
+    .images,
+    .img,
+    .img1,
+    .img2,
+    .img3,
+    .img4,
+    .shows,
+    .pic1,
+    .pic2,
+    .pic3,
+    .pic4,
+    .pic5,
+    .playing img {
+        height: 20px;
+    }
+}
